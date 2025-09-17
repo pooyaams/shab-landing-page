@@ -1,0 +1,1147 @@
+<!doctype html>
+<html lang="fa-IR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سایت شب | اجاره ویلا و سوییت</title>
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="body">
+    <!-- hearder -->
+    <header class="header" id="header">
+        <nav class="top-nav container-fluid position-fixed mx-0 px-0" id="top-nav">
+            <div class="row">
+                <div class="logo-search d-flex align-items-md-center mt-3 mt-md-0 col-6 col-md-7">
+                    <div class="logo">
+                        <a href="./index.html"><img class="me-4" src="./img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="search col-12" id="search">
+                        <form class="d-flex">
+                            <input type="text" placeholder="جستجوی شهر یا کد آگهی">
+                            <button><img src="./img/search-icon.png"></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex align-items-md-center mt-3 mt-md-0 justify-content-start col-md-5">
+                    <div class="ms-auto me-3 mt-2 mt-md-0">
+                        <a href="#" class="top-mizban d-none d-md-block">میزبان شوید</a>
+                    </div>
+                    <div class="top-signUp">
+                        <button type="button" class="btn btn-primary" id="login-top" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">ورود | ثبت نام
+                            <img src="./img/login.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-md-none d-none">
+            <div class="search-mobile d-md-none d-none">
+                <div class="d-flex">
+                    <input type="text" placeholder="نام شهر یا کد آگهی">
+                    <img src="./img/search-bar.png" alt="">
+                </div>
+                <br>
+            </div>
+        </nav>
+
+        <div class="header-search container-fluid" id="header-search">
+            <div class="row text-center">
+                <div class="header-text">
+                    <h1 class="text-light d-none d-md-block">مقصدتان کجاست؟</h1>
+                    <p class="text-light">اجاره آنلاین ویلا و سوئیت در شمال و سراسر ایران</p>
+                </div>
+                <form class="search-bar d-flex bg-light mx-auto d-none d-lg-flex">
+                    <div class="d-flex align-items-center">
+                        <div class="city-name">
+                            <div class="d-flex align-items-center">
+                                <input type="text" placeholder="نام شهر یا کد آگهی">
+                                <img src="./img/search-bar.png" alt="">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="date" id="date">
+                            <div class="d-flex align-items-center">
+                                <img class="mx-2" src="./img/date.png" alt="">
+                                <span class="fw-normal">تاریخ سفر</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="tedad">
+                            <div class="d-flex align-items-center">
+                                <img class="mx-2" src="./img/user.png" alt="">
+                                <span class="fw-normal" id="tedad-input">تعداد نفرات</span>
+                            </div>
+                            <div class="tedad-select d-flex align-items-center justify-content-around d-none">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <button type="button"
+                                        class="add-minus d-flex align-items-center justify-content-center"
+                                        id="add">+</button>
+                                    <span id="tedad-counter">0</span>
+                                    <button type="button"
+                                        class="add-minus d-flex align-items-center justify-content-center pb-1"
+                                        id="minus">-</ذ>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>جستجو</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="city-name-mobile d-flex justify-content-center d-lg-none">
+                    <div class="d-flex align-items-center">
+                        <input class="rounded-4" type="text" placeholder="نام شهر یا کد آگهی">
+                        <img src="./img/search-bar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of header -->
+
+    <!-- content -->
+    <div class="content">
+        <div class="options d-flex justify-content-between pt-md-4">
+            <a href="">
+                <div class="option">
+                    <div><img src="./img/ejare-mahane.svg" alt=""></div>
+                    <p>اجاره ماهانه تهران</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="option">
+                    <div><img src="./img/kolbe.svg" alt=""></div>
+                    <p>کلبه</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="option">
+                    <div><img src="./img/bomgardi.svg" alt=""></div>
+                    <p>بومگردی</p>
+                </div>
+            </a>
+            <a href="">
+                <div class="option">
+                    <div><img src="./img/stakhr.svg" alt=""></div>
+                    <p>استخردار</p>
+                </div>
+            </a>
+            <a class="hide" href="">
+                <div class="option">
+                    <div><img src="./img/saheli.svg" alt=""></div>
+                    <p>ساحلی</p>
+                </div>
+            </a>
+            <a class="hide" href="">
+                <div class="option">
+                    <div><img src="./img/jangali.svg" alt=""></div>
+                    <p>جنگلی</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="city">
+            <div>
+                <span>مقاصد پربازدید</span>
+            </div>
+            <div class="swiper swiper1">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-1">
+                                تهران
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-2">
+                                کردان
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-3">
+                                رامسر
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-4">
+                                قشم
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-5">
+                                کیش
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-6">
+                                چابهار
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-7">
+                                ماسال
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-8">
+                                رشت
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-9">
+                                بندرانزلی
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-10">
+                                تالش
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-11">
+                                اصفهان
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-12">
+                                مشهد
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-13">
+                                محمود آباد
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-14">
+                                چالوس
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="city-slide bg-15">
+                                سواد کوه
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev d-none d-md-block"></div>
+                <div class="swiper-button-next d-none d-md-block"></div>
+
+            </div>
+        </div>
+        <div class="cards">
+            <div>
+                <div class="header">
+                    <span>ویلاهای شمال</span>
+                </div>
+                <div class="edame d-none d-md-block">
+                    <a href="">مشاهده همه ویلاهای شمال &nbsp; <i class="fa-solid fa-angle-left ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="swiper swiper2">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-1.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span class="fw-bold text-dark">4.9</span>
+                                        <span>(2234 نظر)</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <s class="text-secondary">3,000,000</s>
+                                            <span class="bg-danger text-light rounded-5 takhfif">50%</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-2.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-3.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-4.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-5.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s>
+                                            <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-6.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-3.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-4.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev d-none d-md-block"></div>
+                <div class="swiper-button-next d-none d-md-block"></div>
+
+            </div>
+
+            <div class="edame d-flex d-md-none justify-content-around pt-4">
+                <a href="">مشاهده همه ویلاهای شمال &nbsp; <i class="fa-solid fa-angle-left ms-2"></i></a>
+            </div>
+        </div>
+        <div class="cards">
+            <div>
+                <div class="header">
+                    <span>ویلاهای اطراف تهران</span>
+                </div>
+                <div class="edame d-none d-md-block">
+                    <a href="">مشاهده همه ویلاهای اطراف تهران &nbsp; <i class="fa-solid fa-angle-left ms-2"></i></a>
+                </div>
+            </div>
+
+            <div class="swiper swiper2">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-1.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-2.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-3.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-4.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-5.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-6.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-5.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="card card-slide">
+                                <img src="./img/swiper-slide/shomal-3.png" class="card-img-top" alt="...">
+                                <div class="card-body p-1">
+                                    <div class="rate">
+                                        <i class="fa-solid fa-star" style="color: #616fcf;"></i>
+                                        <span>اقامتگاه جدید</span>
+                                    </div>
+                                    <header class="card-name">
+                                        <span>مجموعه اقامتی ماه و ماهی اتاق کاهگلی 4 تخته</span>
+                                    </header>
+                                    <div class="info d-flex align-items-center">
+                                        <span>3 جای‌خواب ، تا 3 مهمان </span>
+                                        <hr>
+                                        <span><i class="fa-solid fa-location-dot"
+                                                style="color: #919191;padding-left: 3px;"></i>سواد کوه، جاده لفور</span>
+                                    </div>
+                                    <div class="price">
+                                        <div class="w-50 float-start">
+                                            <span>از شبی</span>
+                                            <strong>1,500,000</strong>
+                                            <span>تومان</span>
+                                        </div>
+
+                                        <div class="w-50 float-end text-end">
+                                            <!-- <s class="text-secondary"></s> -->
+                                            <!-- <span class="bg-danger text-light rounded-5 takhfif"></span> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev d-none d-md-block"></div>
+                <div class="swiper-button-next d-none d-md-block"></div>
+
+            </div>
+
+            <div class="edame d-flex d-md-none justify-content-around pt-4">
+                <a href="">مشاهده همه ویلاهای شمال &nbsp; <i class="fa-solid fa-angle-left ms-2"></i></a>
+            </div>
+        </div>
+
+        <div class="vijegi d-flex justify-content-around align-items-center mx-auto">
+            <div class="vijegi-item">
+                <img src="./img/bime.svg" alt="">
+                <p>بیمه رایگان اقامت</p>
+            </div>
+            <div class="vijegi-item">
+                <img src="./img/jabejaei.svg" alt="">
+                <p>جابه‌جایی بی قید و شرط</p>
+            </div>
+            <div class="vijegi-item">
+                <img src="./img/poshtibani.svg" alt="">
+                <p>پشتیبانی 24 ساعته</p>
+            </div>
+            <div class="vijegi-item del">
+                <img src="./img/chat.svg" alt="">
+                <p>گفت‌وگو با میزبان</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End of content -->
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer1 mx-auto">
+
+            <div class="d-block d-lg-flex align-items-baseline justify-content-between mb-4">
+
+                <div class="ashnaey d-flex flex-column">
+                    <h5>با شب بیشتر آشنا شوید</h5>
+                    <ul>
+                        <li><a href="#">تماس با ما</a></li>
+                        <li><a href="#">درباره شب</a></li>
+                        <li><a href="#">سوالات متداول</a></li>
+                        <li><a href="#">حقوق کاربران</a></li>
+                        <li><a href="#">قوانین استفاده از شب</a></li>
+                        <li><a href="#">قواعد باز پرداخت وجه</a></li>
+                        <li><a href="#">کد تخفیف شب</a></li>
+                        <li><a href="#">وبلاگ شب</a></li>
+                        <li><a href="#">نحوه کار شب</a></li>
+                        <li><a href="#">همکاری سازمانی</a></li>
+                        <li><a href="#">فرصت های شغلی</a></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="poshtibani d-flex flex-column gap-2 align-items-start justify-content-start">
+                    <div class="head d-flex gap-3 pe-5">
+                        <h5>تلفن پشتیبانی</h5>
+                        <span>پاسخگویی 24 ساعته</span>
+                    </div>
+                    <div class="call d-flex justify-content-start justify-content-lg-center gap-3 align-items-baseline">
+                        <p class="fs-2 lh-1">021 - 28 11 12 88</p>
+                        <div><i class="fa-solid fa-phone" style="color: #616fcf;"></i></div>
+                    </div>
+                    <button class="col-12">چت با پشتیبانی</button>
+                </div>
+                <br>
+                <br>
+                <div class="social d-flex flex-column">
+                    <div class="container-fluid">
+                        <h5>شبکه‌های اجتماعی شب</h5>
+                        <div class="accounts d-flex row row-gap-3 mt-3">
+                            <section class="col-3 col-lg-6">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-telegram"
+                                            style="color: #4756b4;width: 25px;height: 25px;"></i>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="col-3 col-lg-6">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"
+                                            style="color: #4756b4;width: 25px;height: 25px;"></i>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="col-3 col-lg-6">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"
+                                            style="color: #4756b4;width: 25px;height: 25px;"></i>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="col-3 col-lg-6">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin"
+                                            style="color: #4756b4;width: 25px;height: 25px;"></i>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block d-lg-flex align-items-baseline justify-content-between">
+                <div class="etemad d-flex flex-column">
+                    <h5>با خیال راحت به ما اعتماد کنید</h5>
+                    <div class="d-flex justify-content-between justify-content-lg-center mt-3">
+                        <div><img src="./img/etehadie.png" alt=""></div>
+                        <div><img src="./img/etemad.png" alt=""></div>
+                        <div><img src="./img/samandehi.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="email d-flex flex-column">
+                    <h5>از تخفیف‌ها و اخبار شب باخبر شوید</h5>
+                    <div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-5 col-12" id="floatingInput"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">ایمیل خود را وارد نمایید</label>
+                        </div>
+                        <button class="col-12">ثبت نام در خبرنامه</button>
+                    </div>
+                </div>
+                <div class="app d-flex flex-column">
+                    <h5>دانلود اپلیکیشن</h5>
+                    <div class="apps d-flex flex-wrap gap-3 mt-2">
+                        <div><a href="#"><img src="./img/bazar.png" alt=""></a></div>
+                        <div><a href="#"><img src="./img/gplay.png" alt=""></a></div>
+                        <div><a href="#"><img src="./img/anardooni.png" alt=""></a></div>
+                        <div><a href="#"><img src="./img/sib.png" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer2">
+
+            <div class="mt-5">
+
+                <div class="footer-rec">
+
+                    <div class="d-flex flex-column">
+                        <h5>ویلاهای شمال</h5>
+                        <ul>
+                            <li><a href="#">اجاره ویلا در چالوس</a></li>
+                            <li><a href="#">اجاره ویلا در کلاردشت</a></li>
+                            <li><a href="#">اجاره ویلا در تالش</a></li>
+                            <li><a href="#">اجاره ویلا در فومن</a></li>
+                            <li><a href="#">اجاره ویلا در بابلسر</a></li>
+                            <li><a href="#">اجاره ویلا در محمود آباد</a></li>
+                            <li><a href="#">اجاره ویلا در فریدون کنار</a></li>
+                            <li><a href="#">اجاره ویلا در نوشهر</a></li>
+                            <li><a href="#">اجاره ویلا در رامسر</a></li>
+                            <li><a href="#">اجاره ویلا متل قو</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <h5>ویلاهای جنوب</h5>
+                        <ul>
+                            <li><a href="#">اجاره ویلا در شیراز</a></li>
+                            <li><a href="#">اجاره ویلا در بندرعباس</a></li>
+                            <li><a href="#">اجاره ویلا در هرمزگان</a></li>
+                            <li><a href="#">اجاره ویلا در قشم</a></li>
+                            <li><a href="#">اجاره ویلا در کیش</a></li>
+                            <li><a href="#">اجاره ویلا در جزیره هرمز</a></li>
+                            <li><a href="#">اجاره ویلا در یزد</a></li>
+                            <li><a href="#">اجاره ویلا در همدان</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column can-hide1">
+                        <h5>ویلاهای اطراف تهران</h5>
+                        <ul>
+                            <li><a href="#">اجاره ویلا در تهران</a></li>
+                            <li><a href="#">اجاره ویلا در بومهن</a></li>
+                            <li><a href="#">اجاره ویلا در دماوند</a></li>
+                            <li><a href="#">اجاره ویلا در لواسان</a></li>
+                            <li><a href="#">اجاره ویلا در طالقان</a></li>
+                            <li><a href="#">اجاره ویلا در کردان</a></li>
+                            <li><a href="#">اجاره ویلا در فیروزکوه</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="footer-rec-box can-hide2">
+                    <div class="d-flex justify-content-start flex-wrap gap-2">
+                        <a href="#"><span>اجاره ویلا جنگلی</span></a>
+                        <a href="#"><span>اجاره ویلا ساحلی</span></a>
+                        <a href="#"><span>اجاره ویلا استخردار</span></a>
+                        <a href="#"><span>اجاره ویلا با استخر سرپوشیده</span></a>
+                        <a href="#"><span>اجاره ویلا با استخر روباز</span></a>
+                        <a href="#"><span>اجاره ویلا شهری</span></a>
+                        <a href="#"><span>اجاره ویلا کوهستانی</span></a>
+                        <a href="#"><span>اجاره ویلا کویری</span></a>
+                        <a href="#"><span>اجاره کلبه چوبی و جنگلی</span></a>
+                        <a href="#"><span>اجاره کلبه سوئیسی</span></a>
+                        <a href="#"><span>رزرو اقامتگاه بومگردی</span></a>
+                        <a href="#"><span>اجاره خانه و آپارتمان مبله در تهران</span></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="show d-lg-none" id="show">مشاهده کمتر</button>
+
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <div class="author">
+        <div>
+            <p>توسعه داده شده توسط پویا امیرصادقی</p>
+        </div>
+    </div>
+
+    <!-- mobile top  -->
+    <div class="mobile-menu-bar d-md-none" id="mobile-menu-bar">
+        <div class="d-flex">
+            <a href="#" class="mobile-menu d-flex flex-column py-2 mobile-menu-select">
+                <img src="./img/mobile-menu-logo.png" width="17" height="12">
+                <span class="pt-2">خانه</span>
+            </a>
+
+            <a href="#" class="mobile-menu d-flex flex-column py-2">
+                <i class="fa-solid fa-magnifying-glass fa-sm" width></i>
+                <span class="pt-2">اقامتگاه&zwnj;ها</span>
+            </a>
+
+            <a href="#" class="mobile-menu d-flex flex-column py-2">
+                <i class="fa-solid fa-bookmark fa-sm"></i>
+                <span class="pt-2">علاقه&zwnj;ها</span>
+            </a>
+
+            <button class="mobile-menu d-flex flex-column py-2 border-0 bg-transparent" id="login-menu"
+                data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">
+                <i class="fa-solid fa-right-to-bracket fa-sm"></i>
+                <span class="pt-2">ورود|ثبت&zwnj;نام</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">ورود یا ثبت نام</h1>
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="modal-body">
+                    <div class="mt-5 ps-2"><span class="fs-6">لطفا شماره همراه خود را وارد کنید:</span></div>
+                    <form action="" class="mx-auto w-100 text-center">
+                        <div class="form-floating shomareInput mb-3">
+                            <input type="text" class="form-control rounded-5 mt-3" id="floatingInput"
+                                placeholder="شماره همراه">
+                            <label for="floatingInput">شماره همراه</label>
+                        </div>
+                        <button id="modalBtn" type="button">ثبت و ادامه</button>
+                    </form>
+                    <div class="roles mt-4 ms-4">
+                        <span class="">ورود یا ثبت نام به معنای پذیرش <a class="text-decoration-none" href="#">قوانین
+                                سایت شب</a> است.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

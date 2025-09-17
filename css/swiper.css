@@ -1,0 +1,251 @@
+.swiper {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.swiper-slide {
+    width: auto !important;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev::after {
+    content: "";
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 13px 10px 15px;
+    border-radius: 50%;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+}
+
+.swiper-button-next::after {
+    content: "";
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 14px 10px 14px;
+    border-radius: 50%;
+    font-weight: 900;
+    position: relative;
+    top: 10px;
+    left: 17px;
+}
+
+.swiper-slide a {
+    text-decoration: none;
+}
+
+/* ------------------------------CITY-------------------------------- */
+
+.city {
+    max-width: 1425px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+@media(max-width:767px) {
+    .city {
+        padding-left: 0;
+    }
+}
+
+.city > div {
+    display: flex;
+    justify-content: start;
+}
+
+.city > div > span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.city-slide {
+    width: 165px !important;
+    height: 195px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    padding: 7px;
+    color: white;
+    font-size: 17px;
+    text-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+
+.bg-1 {
+    background: url(../img/swiper-slide/tehran.webp);
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url(../img/swiper-slide/kordan.webp);
+    background-size: cover;
+}
+
+.bg-3 {
+    background: url(../img/swiper-slide/ramsar.webp);
+    background-size: cover;
+}
+
+.bg-4 {
+    background: url(../img/swiper-slide/qeshm.webp);
+    background-size: cover;
+}
+
+.bg-5 {
+    background: url(../img/swiper-slide/kish.webp);
+    background-size: cover;
+}
+
+.bg-6 {
+    background: url(../img/swiper-slide/chabahar.webp);
+    background-size: cover;
+}
+
+.bg-7 {
+    background: url(../img/swiper-slide/masal.webp);
+    background-size: cover;
+}
+
+.bg-8 {
+    background: url(../img/swiper-slide/rasht.webp);
+    background-size: cover;
+}
+
+.bg-9 {
+    background: url(../img/swiper-slide/bandaranzali.webp);
+    background-size: cover;
+}
+
+.bg-10 {
+    background: url(../img/swiper-slide/talesh.webp);
+    background-size: cover;
+}
+
+.bg-11 {
+    background: url(../img/swiper-slide/isfahan.webp);
+    background-size: cover;
+}
+
+.bg-12 {
+    background: url(../img/swiper-slide/mashhad.png);
+    background-size: cover;
+}
+
+.bg-13 {
+    background: url(../img/swiper-slide/mahmudabad.webp);
+    background-size: cover;
+}
+
+.bg-14 {
+    background: url(../img/swiper-slide/chalus.webp);
+    background-size: cover;
+}
+
+.bg-15 {
+    background: url(../img/swiper-slide/savadkooh.webp);
+    background-size: cover;
+}
+
+
+/* -------------------------------------SHOMAL----------------------------------------------- */
+
+.cards{
+    max-width: 1425px;
+    height: auto;
+    margin: 40px auto;
+    padding: 0 15px;
+}
+
+@media(max-width:767px){
+    .cards {
+        padding-left: 0;
+    }
+}
+
+.cards > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edame a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.card-slide{
+    width: 310px !important;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card-slide img{
+    width: 309px !important;
+    height: 200px;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.rate{
+    font-size: 12px;
+    color: #5B5D72;
+    padding-top: 5px;
+}
+
+.card-name{
+    width: 100%;
+    padding: 10px 5px 3px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-name span{
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.info{
+    overflow: hidden;
+    padding: 5px 5px;
+}
+
+.info span{
+    white-space: nowrap;
+    color: #919191;
+    font-size: 13px;
+}
+
+.info hr{
+    transform: rotate(90deg);
+    width: 20px;
+    padding: 0 5px;
+    color: #767676;
+}
+
+.price{
+    padding: 0 5px;
+}
+
+.price span{
+    color: #919191;
+    font-size: 15px;
+}
+
+.takhfif{
+    font-size: 14px !important;
+    padding: 2px 8px !important;
+}
+
+.price s{
+    font-size: 14px;
+}
