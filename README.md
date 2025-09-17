@@ -1,7 +1,6 @@
 # Shab Landing Page | لندینگ پیج سایت شب
 
 ![Shab Landing Page](https://github.com/pooyaams/shab-landing-page/blob/main/Screenshot%20(44).png?raw=true)  
-*Optional: Screenshot of the landing page*
 
 ---
 
@@ -34,4 +33,15 @@ This project focuses on the **UI/UX and frontend layout** using HTML, CSS, Boots
 1. Clone the repository:
 ```bash
 git clone https://github.com/pooyaams/shab-landing-page.git
+
+cd shab-landing-page
+
 ```
+
+Open the index.html file in your browser.
+No server setup required — the project runs as a static site.
+
+📄 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it, as long as the original author is credited.
