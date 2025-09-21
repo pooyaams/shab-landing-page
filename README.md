@@ -41,7 +41,7 @@ cd shab-landing-page
 Open the index.html file in your browser.
 No server setup required — the project runs as a static site.
 
-📄 License
+### 📄 License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it, as long as the original author is credited.
